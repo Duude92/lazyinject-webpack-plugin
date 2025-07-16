@@ -1,6 +1,6 @@
 {
-  "name": "lazyinject-webpack-plugin",
-  "version": "0.0.1",
+  "name": "@duude92/lazyinject-webpack-plugin",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
@@ -8,10 +8,12 @@
   "scripts": {
     "build": "tsc"
   },
-  "devDependencies": {
-    "typescript": "^5.5.3",
+  "dependencies": {
     "webpack-virtual-modules": "^0.6.2",
     "fast-glob": "^3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
   },
   "files": [
     "dist"
