@@ -25,7 +25,8 @@ module.exports = {
 `plugins: [new LazyInjectWebpackPlugin()]`
 
 ## Example
-`01-webpack-sample` contain example of application, which uses LazyInject as DI container, and bundled using webpack
+ - `01-webpack-sample` contain example of application, which uses LazyInject as DI container, and bundled using webpack
+ - [battleship-backend](https://github.com/Duude92/battleship-backend) - example of bundling in 'real' application
 
 ## License
 This project is open source and available under the MIT License.
