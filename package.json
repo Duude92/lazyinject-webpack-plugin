@@ -13,5 +13,13 @@
     "webpack-virtual-modules": "^0.6.2",
     "fast-glob": "^3.3.3"
   },
-  "private": true
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Duude92/lazyinject-webpack-plugin"
+  },
+  "license": "MIT"
 }
