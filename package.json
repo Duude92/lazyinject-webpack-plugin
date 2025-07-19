@@ -16,6 +16,7 @@
     "typescript": "^5.5.3",
     "ts-node": "^10.9.2",
     "webpack": "^5.100.2",
+    "@duude92/lazyinject": "^0.1.9"
   },
   "files": [
     "dist"

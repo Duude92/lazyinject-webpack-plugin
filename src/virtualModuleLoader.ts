@@ -1,8 +1,4 @@
-export const resolveAndLoadModules = async (options?: IContainerOptions) => {
-}
+import {Config as LazyInjectContainerOptions} from "@duude92/lazyinject";
 
-interface IContainerOptions {
-    baseDir: string;
-    catalogs?: string[];
-    recursive?: boolean;
+export const resolveAndLoadModules = async (options?: LazyInjectContainerOptions) => {
 }
