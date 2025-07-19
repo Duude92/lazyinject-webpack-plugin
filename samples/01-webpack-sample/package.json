@@ -11,6 +11,6 @@
     "webpack": "^5.100.1",
     "ts-loader": "^9.5.2",
     "lazyinject-webpack": "file:../../",
-    "@duude92/lazyinject": "^0.1.5"
+    "@duude92/lazyinject": "^0.1.9"
   }
 }

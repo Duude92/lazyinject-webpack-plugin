@@ -1,3 +1,6 @@
+/** @type {import('@duude92/lazyinject').Config} */
 module.exports = {
-  catalogs: ['src', 'src/implementations'],
+    default: {
+        catalogs: [{path: 'src'}, {path: 'src/implementations'}],
+    }
 };

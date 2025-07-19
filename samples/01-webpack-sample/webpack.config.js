@@ -11,7 +11,7 @@ module.exports = {
             }
         ]
     },
-    mode: 'production',
+    mode: 'development',
     target: 'node',
     output: {
         filename: 'bundle.js',
