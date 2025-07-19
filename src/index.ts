@@ -27,9 +27,9 @@ class LazyInjectWebpackPlugin {
         compiler.hooks.afterEnvironment.tap('LazyInjectWebpackPlugin', () => {
             const configAbsPath = path.resolve(this.options.configPath);
             const userConfig = require(configAbsPath);
-            const catalogs: string[] = userConfig.catalogs || [];
+            const catalogs: { path: string }[] = userConfig.default.catalogs || [];
 
-            const files = this.resolveCatalogFiles(catalogs);
+            const files = this.resolveCatalogFiles(catalogs.map(catalog => catalog.path));
             const importCode = files
                 .map((f) => `import './${f.replace(/\\/g, '/')}';`)
                 .map(f => f.replace(/(.+[^.]).ts\'\;$/g, '$1\';\n'))
